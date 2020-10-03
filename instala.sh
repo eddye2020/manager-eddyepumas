@@ -179,7 +179,7 @@ chmod +x /bin/monitor.html
 chmod +x /var/www/html/estilos.css
 }
 fun_ip
-wget -O /usr/bin/trans https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/master/Install/trans &> /dev/null
+wget -O /usr/bin/trans https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/main/Install/trans &> /dev/null
 msg -bar2
 msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-DANKELTHAHER \033[1;33m]"
 [[ $1 = "" ]] && funcao_idioma || {

@@ -9,7 +9,7 @@
 
 ## Installation
 
-wget https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/master/EddyePumas.sh; chmod 777 EddyePumas.sh* && ./EddyePumas.sh*
+wget https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/main/EddyePumas.sh; chmod 777 EddyePumas.sh* && ./EddyePumas.sh*
 
 ## Ayuda
 
