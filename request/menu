@@ -117,7 +117,7 @@ tput cuu1 && tput dl1
 done
 if [[ $Key = @(s|S|y|Y) ]]; then
 msg -verm "$(fun_trans "Perfecto Iniciando Procedimiento"): "
-wget -O $HOME/EddyePumas.sh https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/master/EddyePumas.sh &> /dev/null
+wget -O $HOME/EddyePumas.sh https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/main/EddyePumas.sh &> /dev/null
 chmod +x $HOME/EddyePumas.sh*
 local LINGUAGE=$(cat ${SCPidioma})
 $HOME/EddyePumas.sh "${LINGUAGE}"

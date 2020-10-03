@@ -22,8 +22,8 @@ echo -e " \033[1;33m[\033[1;31m####################\033[1;33m] - \033[1;32m100%\
 sleep 1s
 }
 clear
-cowsay -f eyes "esta herramienta le cambia y da color al status de conexion y agrega una contrasena atu payload para mayor seguridad...." | lolcat 
-figlet ..dankelthaher.. | lolcat
+cowsay -f eyes "Esta herramienta le cambia y da color al status de conexion y agrega una contrasena atu payload para mayor seguridad...." | lolcat 
+figlet ..EddyePumas.. | lolcat
 BARRA="\e[0;31m➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\e[0m"
 echo -e "\e[0;31m➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\e[0m"
 echo ""
