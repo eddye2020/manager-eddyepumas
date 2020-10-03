@@ -167,21 +167,19 @@ case $1 in
 "shadowsocks.sh")ARQ="${SCPinst}/";; #Instalacao
 "v2ray.sh")ARQ="${SCPinst}/";; #Instalacao
 "vdoray.sh")ARQ="${SCPinst}/";; #Instalacao
-"tcp.sh")ARQ="${SCPfrm}/";; #tcp
-"dns-netflix.sh")ARQ="${SCPfrm}/";; #DNSNetflix
-"Unlock-Pass-VULTR.sh"${SCPfrm}/";; #UnlockVultr
+"tcp.sh")ARQ="${SCPfrm}/";; #Ferramentas
+"dns-netflix.sh")ARQ="${SCPfrm}/";; #Ferramentas
+"Unlock-Pass-VULTR.sh")ARQ="${SCPfrm}/";; #Ferramentas
 "sockspy.sh"|"PDirect.py"|"PPub.py"|"PPriv.py"|"POpen.py"|"PGet.py")ARQ="${SCPinst}/";; #Instalacao
 *)ARQ="${SCPfrm}/";; #Ferramentas
 esac
 mv -f ${SCPinstal}/$1 ${ARQ}/$1
 chmod +x ${ARQ}/$1
-chmod +x /bin/monitor.html
-chmod +x /var/www/html/estilos.css
 }
 fun_ip
 wget -O /usr/bin/trans https://raw.githubusercontent.com/eddye2020/manager-eddyepumas/main/Install/trans &> /dev/null
 msg -bar2
-msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-DANKELTHAHER \033[1;33m]"
+msg -ama "[ NEW - ULTIMATE - SCRIPT ] ➣ \033[1;33m[\033[1;34m OFICIAL BY-EDDYEPUMAS \033[1;33m]"
 [[ $1 = "" ]] && funcao_idioma || {
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
