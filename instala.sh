@@ -61,7 +61,7 @@ funcao_idioma () {
  echo -e " "
 msg -bar2
 cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY EDDYEPUMAS" | lolcat
-figlet ..dankelthaher.. | lolcat
+figlet ..eddyepumas.. | lolcat
  echo -e " "
 msg -bar2
 echo -e "\e[1;33mSelecione Un Idioma\e[0m"
