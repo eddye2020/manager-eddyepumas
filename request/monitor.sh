@@ -119,10 +119,5 @@ echo "<p>Estado del servicio PythonDirec está ||  $P3 </span>.</p> " >> $DIR/$A
 #sync ; echo 3 > /proc/sys/vm/drop_caches ; echo "RAM Liberada"
 # Finalmente, terminamos de escribir el archivo
 echo "
-<footer>
-    <center><span class="badge badge-success"><font color="green">Visita</font>&nbsp;<a href="https://bit.ly/thonyblog">Mi Sitio Web Oficial</a></span></center>
-                <center><div class="clearFloat"></div>
-                <marquee><center><div class="copy"><p>&copy;<font color="#ff0000">2</font><font color="#ff1500">0</font><font color="#ff2a00">2</font><font color="#ff4000">0</font><font color="#ff5500"> </font><font color="#ff6a00">T</font><font color="#ff7f00">h</font><font color="#ff9400">o</font><font color="#ffaa00">n</font><font color="#ffbf00">y</font><font color="#ffd400">D</font><font color="#ffea00">r</font><font color="#ffff00">o</font><font color="#d5ff00">i</font><font color="#aaff00">d</font><font color="#80ff00"> </font><font color="#55ff00">M</font><font color="#2bff00">o</font><font color="#00ff00">n</font><font color="#00ff2b">i</font><font color="#00ff55">t</font><font color="#00ff80">o</font><font color="#00ffaa">r</font><font color="#00ffd5"> </font><font color="#00ffff">A</font><font color="#00d5ff">l</font><font color="#00aaff">l</font><font color="#0080ff"> </font><font color="#0055ff">R</font><font color="#002bff">i</font><font color="#0000ff">g</font><font color="#1700ff">h</font><font color="#2e00ff">t</font><font color="#4600ff">s</font><font color="#5d00ff"> </font><font color="#7400ff">R</font><font color="#8b00ff">e</font><font color="#9e00d5">s</font><font color="#b200aa">e</font><font color="#c50080">r</font><font color="#d80055">v</font><font color="#ec002b">e</font><font color="#ff0000">d</font></div></center></marquee>
-</footer>
 </body>
 </html>" >> $DIR/$ARCHIVO
